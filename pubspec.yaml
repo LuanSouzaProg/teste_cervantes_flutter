@@ -1,0 +1,37 @@
+name: cervantes_teste
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite_common_ffi: ^2.3.3
+  cupertino_icons: ^1.0.6
+  flutter_modular: ^6.3.4
+  flutter_svg: ^2.0.10+1
+  validatorless: ^1.2.3
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  sqflite: ^2.3.3+1
+  bloc: ^8.1.4
+  path: ^1.9.0
+  window_manager: ^0.3.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/imgs/
