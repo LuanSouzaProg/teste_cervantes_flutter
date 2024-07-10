@@ -1,16 +1,29 @@
 # cervantes_teste
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](https://dart.dev/)
 
-## Getting Started
+## 🛠️ Tecnologias Utilizadas
 
-This project is a starting point for a Flutter application.
+- [Flutter](https://flutter.dev/)
+- [Flutter Bloc](https://bloclibrary.dev/#/)
+- [Modular](https://pub.dev/packages/flutter_modular)
 
-A few resources to get you started if this is your first Flutter project:
+## 🏛️ Arquitetura
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Este aplicativo utiliza uma abreviação do Clean Architecture:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **data**: Contém os repositories.
+- **domain**: Contém os models e services.
+- **modules**: Contém os módulos do aplicativo.
+- **shared**: Contém componentes e utilitários genéricos compartilhados pelo aplicativo.
+
+## ⚙️ Gerenciamento de Estado
+
+O gerenciamento de estado é feito utilizando [Flutter Bloc](https://bloclibrary.dev/#/).
+
+## 🗂️ Injeção de Dependências e Navegação
+
+A injeção de dependências e a navegação por módulos são feitas utilizando [Modular](https://pub.dev/packages/flutter_modular).
+
+
